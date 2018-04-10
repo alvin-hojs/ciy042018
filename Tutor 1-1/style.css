@@ -1,0 +1,21 @@
+.my-color {color: red; 
+    font-size: 2rem;
+    background-color: green;}
+.my-div {
+    background-color: grey;
+    color: white; }
+.outer-div {
+    background-color: blue;
+    color: white;
+}
+.inner-div {
+    background-color: black;
+    border: 20px dashed red;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    
+}
+
+.my-ul {list-style-type: armenian;}
