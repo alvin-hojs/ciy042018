@@ -19,3 +19,25 @@
 }
 
 .my-ul {list-style-type: armenian;}
+
+
+
+
+
+/* this is to set for change of width size of the screen. */
+
+@media (min-width: 768px) {
+
+    .my-div { 
+        color: red;
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .my-div {
+        color: black;
+        font-size: 20px;
+    }
+}
