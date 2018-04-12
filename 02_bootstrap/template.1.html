@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Walkthrough</title>
+
+    <!-- default bootstrap: style your page like twitter -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- theme files: used to style over default bootstrap -->
+    <!-- try themes from: https://startbootstrap.com/-->
+    <!-- <link rel="stylesheet" type="text/css" href="theme.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="theme2.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="theme3.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="theme4.css"> -->
+
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- animate.css: used to apply quick css animations -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
+    
+    <!--our own custom css overrides 
+    (if you want to override the bootstrip setting)-->
+    <link rel="stylesheet" href="custom.css">
+
+    <!-- use this style for testing and development purposes only -->
+    <style type="text/css">
+    .container{border: 2px dotted green;}
+    .row{border: 1px dotted red;}
+    .row [class*=' col-']{border: 2px dotted purple;}
+    </style>
+    
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                
+                <div class="jumbotron">
+                    <h1>
+                        Hello, world!
+                    </h1>
+                    
+                    <p>
+                        cats and code
+                    </p>
+                    
+                    <p>
+                        <a href="#" class="btn btn-success btn-lg" role="button">Lets start coding</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="http://via.placeholder.com/800x600" class="thumbnail" alt="">
+
+                </div>
+
+                <h4>
+                    Thumbnail label
+                </h4>
+
+                <p>
+                    any text
+                </p>
+
+                <a href="#" class="btn btn-success">
+                    Action
+                </a>
+
+            </div>
+            
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                        <img src="http://via.placeholder.com/800x600" class="thumbnail" alt="">
+    
+                </div>
+
+                <h4>
+                    Thumbnail label
+                </h4>
+
+                <p>
+                    any text
+                </p>
+
+                <a href="#" class="btn btn-success">
+                    Action
+                </a>
+            
+            </div>
+            
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="http://via.placeholder.com/800x600" class="thumbnail" alt="">
+
+                </div>
+
+                <h4>
+                    Thumbnail label
+                </h4>
+
+                <p>
+                    any text
+                </p>
+
+                <a href="#" class="btn btn-success">
+                    Action
+                </a>
+
+            </div>
+        
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NES29kzseZ0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+
+                    </iframe>
+                
+                </div>
+
+            </div>
+ 
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-6">
+                
+                <form>
+                    <h3> Sign Up</h3>
+                    
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="exampleInputname" placeholder="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputemail">Email</label>
+                        <input type="email" class="form-control" id="exampleInputemail" placeholder="frank@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputFile">File input</label>
+                        <input type="file" id="exampleInputFile">
+                        <p class="help-block">Example block-level help text here.</p>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                        <input type="checkbox"> Check me out
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                
+                </form>
+
+
+                </div>
+                
+            </div>  
+
+            <div class="col-sm-6 text-center">
+                
+                <h1 class="primary">
+                    test title
+                </h1>
+
+            </div> 
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-4">
+                
+                <h1>Opening Hours</h1>
+
+                <table class="table">
+                   <tr>
+                       <th>Day</th>
+                       <th>Hours</th>
+                   </tr>
+                   
+                   <tr>
+                       <td>Monday to Thurday</td>
+                       <td>9am - 5pm</td>
+                   </tr>
+
+                    <tr>
+                        <td>Friday and Saturday</td>
+                        <td>11am - 3pm</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sunday</td>
+                        <td>closed</td>
+                    </tr>
+                </table>
+               
+            </div>
+            
+            <div class="col-sm-4">
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8036915008074!2d103.77441951433588!3d1.2921825621189835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a5598ddf175%3A0x846c6a0fa3608dda!2s25+Heng+Mui+Keng+Terrace%2C+Institute+of+Systems+Science%2C+Singapore+119615!5e0!3m2!1sen!2ssg!4v1523454917939" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+            </div>
+
+            <div class="col-sm-4">
+               
+                <ul class="list-group">
+                    <li class="list-group-item">+65 123 456 789</li>
+                    <li class="list-group-item">hello@meet.me</li>
+                    <li class="list-group-item">t.me/framk</li>
+                    
+                </ul>
+               
+                row 5 column 3
+            </div>
+
+        </div>
+    
+
+        <div class="row">
+            <div class="col-sm-12">
+                row 6 only
+            </div>
+
+        </div>
+    
+    
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+<!-- jquery: used by bootstrap.js -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- bootstrap js: used to run fancy components like carousel -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- wow.js: used to make animate.css run on view -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/wow/1.1.2/wow.min.js"></script>
+<script>new WOW().init();</script>
+</body>
+</html>
